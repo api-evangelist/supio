@@ -1,8 +1,18 @@
 aid: supio
 name: Supio
-description: Supio is a company surfaced as a portfolio company of mayfield, sapphire-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Supio is an agentic legal AI platform built for plaintiff and personal-injury
+  law firms, supporting a case from intake to verdict. Its Supio Agent automates
+  labor-intensive legal work — case intake, medical-record analysis and medical
+  chronologies (MedChrons), demand-letter drafting, case-economics analysis, and
+  litigation document drafting — and adds firm-level intelligence across cases.
+  Supio publishes no public developer portal or OpenAPI, but offers a
+  customer-available API for building custom integrations, dashboards, and
+  workflows on the structured case data it generates, and integrates with case
+  management systems (Litify, SmartAdvocate, CasePeer, MyCase, Smokeball),
+  document stores (Box, Dropbox, OneDrive, SharePoint), and Westlaw via a Thomson
+  Reuters partnership. The platform is SOC 2 Type II certified and HIPAA, PHIPA,
+  and GDPR compliant.
 url: https://raw.githubusercontent.com/api-evangelist/supio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +21,30 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/67d1d6c69cd4d82353e58909/67d1ed2a1e365f124506b257_apple-touch-icon.png
 tags:
 - Company
+- Legal
+- Legal Tech
+- Artificial Intelligence
+- Agentic AI
+- Personal Injury
+- Document Automation
+- Case Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,28 @@ maintainers:
 common:
 - type: Website
   url: https://supio.com
+- type: Integrations
+  url: https://supio.com/integrations
+- type: Blog
+  url: https://supio.com/blog
+- type: Support
+  url: https://supio.com/support
+- type: Pricing
+  url: https://supio.com/pricing
+- type: Login
+  url: https://portal.supio.com/login
+- type: TermsOfService
+  url: https://supio.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://supio.com/privacy-policy
+- type: TrustCenter
+  url: security/supio-trust-center.yml
+- type: Compliance
+  url: https://supio.com/security
+- type: DomainSecurity
+  url: security/supio-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
