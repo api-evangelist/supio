@@ -32,7 +32,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 image: https://cdn.prod.website-files.com/67d1d6c69cd4d82353e58909/67d1ed2a1e365f124506b257_apple-touch-icon.png
