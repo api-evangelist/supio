@@ -1,0 +1,32 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.supio.com/pricing
+sources:
+- https://www.supio.com/pricing
+- https://supio.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Pricing page describes two purchase options but
+  shows no numeric prices; prompts to contact sales/book demo.
+plan_count: 2
+plans:
+- name: Case Subscription
+  price_text: Get Pricing
+  period: none
+  included_quota: Lower per-case costs; flexible pricing based on firm size and case volume; additional
+    support and training options
+- name: Unlimited Firm Access
+  price_text: Go Unlimited
+  period: none
+  included_quota: Lowest per-case cost; unlimited cases; most support and training options, including
+    on-site training
