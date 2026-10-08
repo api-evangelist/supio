@@ -30,3 +30,23 @@ plans:
   period: none
   included_quota: Lowest per-case cost; unlimited cases; most support and training options, including
     on-site training
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Case Subscription
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Unlimited Firm Access
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
